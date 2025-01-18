@@ -5,3 +5,11 @@ include
 lib
 lib64
 PDFS
+Sfinks/*
+# # Ignoruj cały katalog sfinks
+
+
+# # Wyklucz podkatalog sfinks/source
+!Sfinks/source/
+
+# # Upewnij się, że pliki w sfinks/source również są śledzone
